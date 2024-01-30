@@ -1,5 +1,5 @@
 %% Read SMOS Soil Moisture Data (EASE 36 km) 
-addpath(genpath('/Users/isabelwang/Documents/MATLAB/nctoolbox-1.1.3'))
+addpath(genpath('/Users/isa/Documents/MATLAB/nctoolbox-1.1.3'))
 run setup_nctoolbox
 
 % Descending retrieval extraction
