@@ -1,5 +1,5 @@
 %% Read SMAP Soil Moisture Data
-cd /Users/isabelwang/Documents/MATLAB/SMAP/SMAP_L3
+cd /Users/isa/Documents/MATLAB/SMAP/SMAP_L3
 h5disp('SMAP_L3_SM_P_20150331_R13080_001.h5');
 
 file_name = dir('*.h5');
@@ -32,14 +32,14 @@ end
 clear i file_name
 
 %% Load EASE ver2 36 km lat/lon
-cd /Users/isabelwang/Documents/MATLAB/scripts
+cd /Users/isa/Documents/MATLAB/scripts
 load('coord_36km')
 % Generate 2d lat/lon templates
 [lon_ease36km,lat_ease36km] = meshgrid(lon_ease_1d,lat_ease_1d);
 clear lon_ease_1d lat_ease_1d
 
 %% Read GLDAS Soil Moisture Data
-addpath(genpath('/Users/isabelwang/Documents/MATLAB/nctoolbox-1.1.3'))
+addpath(genpath('/Users/isa/Documents/MATLAB/nctoolbox-1.1.3'))
 run setup_nctoolbox
 cd /Users/isabelwang/Documents/MATLAB/GLDAS/001
 ds=ncgeodataset('GLDAS_NOAH025SUBP_3H.A2015001.0000.001.2015037193230.grb');
