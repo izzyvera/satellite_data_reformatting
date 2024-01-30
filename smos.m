@@ -3,7 +3,7 @@ addpath(genpath('/Users/isa/Documents/MATLAB/nctoolbox-1.1.3'))
 run setup_nctoolbox
 
 % Descending retrieval extraction
-cd /Users/isabelwang/Documents/MATLAB/smos_d
+cd /Users/isa/Documents/MATLAB/smos_d
 fileread = dir('*.nc');
 for i = 1:length(fileread)
     path_name_d = 'SM_OPER_MIR_CLF31D_20150506T000000_20150506T235959_300_002_7.DBL.nc';
@@ -22,7 +22,7 @@ for i = 1:length(fileread)
 end
 
 % Ascending retrieval extraction
-cd /Users/isabelwang/Documents/MATLAB/smos_a
+cd /Users/isa/Documents/MATLAB/smos_a
 fileread = dir('*.nc');
 
 for i = 1:length(fileread)
