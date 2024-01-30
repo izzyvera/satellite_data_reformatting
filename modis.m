@@ -1,5 +1,5 @@
 % Read MODIS NVDI
-cd('/Users/isabelwang/Documents/MATLAB/MODIS13C2_92715_92716');
+cd('/Users/isa/Documents/MATLAB/MODIS13C2_92715_92716');
 fileread = dir('*.hdf');
 
 for i = 1:length(fileread)
@@ -9,7 +9,7 @@ for i = 1:length(fileread)
 end
         
 % Read MODIS Tsurf (night)
-cd('/Users/isabelwang/Documents/MATLAB/MOD11C1_92715_92716');
+cd('/Users/isa/Documents/MATLAB/MOD11C1_92715_92716');
 fileread = dir('*.hdf');
 
 for i = 1:length(fileread) 
