@@ -1,5 +1,5 @@
 %% Read SMAP Soil Moisture Data (EASE 36 km) 
-cd('/Users/isabelwang/Documents/MATLAB/SMAP/SMAP_L3');
+cd('/Users/isa/Documents/MATLAB/SMAP/SMAP_L3');
 fileread = dir('*.h5');
 
 for i = 1:length(fileread)
