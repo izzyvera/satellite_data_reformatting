@@ -1,7 +1,7 @@
 %% Read GLDAS Soil Moisture Data (geographic) 
-cd /Users/isabelwang/Documents/MATLAB/nctoolbox-1.1.3
+cd /Users/isa/Documents/MATLAB/nctoolbox-1.1.3
 setup_nctoolbox
-cd /Users/isabelwang/Documents/MATLAB/GLDAS/001
+cd /Users/isa/Documents/MATLAB/GLDAS/001
 
 % SM extraction
 path_name = 'GLDAS_NOAH025SUBP_3H.A2015001.0000.001.2015037193230.grb';
